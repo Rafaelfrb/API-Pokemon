@@ -7,7 +7,6 @@
     display: flex;
     justify-content: space-around;
     padding-bottom: 15px;
-    /*background-color: #F5F5F5;*/
 }
 
 h1 img {
@@ -126,16 +125,14 @@ a {
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
-        background-color: #77c9f8;
     }
 
-    footer {
+    .footer {
         display: flex;
         flex-direction: column;
         align-items: center;
         height: 80px;
         justify-content: space-between;
         padding: 20px;
-        background-color: #7eab70;
     }
 }
