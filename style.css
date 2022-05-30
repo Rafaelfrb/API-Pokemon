@@ -5,8 +5,9 @@
 
 .headercontainer {
     display: flex;
-    justify-content: space-between;
-    background-color: #77c9f8;
+    justify-content: space-around;
+    padding-bottom: 15px;
+    /*background-color: #F5F5F5;*/
 }
 
 h1 img {
@@ -29,11 +30,11 @@ h1 img {
 }
 
 main {
-    background-color: #7eab70;
-    background-image: url('background1.jpg');
+    background-color: #F5F5F5;
+    background-image: url('background.jpg');
     background-repeat: repeat-x;
     background-attachment: fixed;
-    background-size: contain;
+    background-size: 100% auto;
     padding-top: 20px;
 }
 
@@ -60,13 +61,14 @@ li {
     width: 125px;
     font-family: 'Pokemon GB';
     font-size: 8px;
-    border: 2px solid;
-    border-radius: 10%;
+    border-radius: 28px;
+    background: linear-gradient(225deg, #cacaca, #f0f0f0);
+    box-shadow:  -15px 15px 40px #b3b3b3,
+                  15px -15px 40px #ffffff;
     margin:20px;
     padding-bottom: -10px;
     text-align: center;
     text-transform: capitalize;
-    background-color: #f2f2f2;
 }
 
 li:hover {
@@ -85,78 +87,20 @@ li img:hover {
     margin-bottom: 5px;
 }
 
-.steel {
-	background-color: #f4f4f4;
-}
-
-.fire {
-	background-color: #FDDFDF;
-}
-
-.grass {
-	background-color: #DEFDE0;
-}
-
-.electric {
-	background-color: #FCF7DE;
-}
-
-.water, .ice {
-	background-color: #DEF3FD;
-}
-
-.ground {
-	background-color: #f4e7da;
-}
-
-.rock {
-	background-color: #d5d5d4;
-}
-
-.fairy {
-	background-color: #fceaff;
-}
-
-.poison {
-	background-color: #98d7a5;
-}
-
-.bug {
-	background-color: #f8d5a3;
-}
-
-.dragon {
-	background-color: #97b3e6;
-}
-
-.psychic {
-	background-color: #eaeda1;
-}
-
-.flying {
-	background-color: #F5F5F5;
-}
-
-.fighting {
-	background-color: #E6E0D4;
-}
-
-.normal {
-	background-color: #F5F5F5;
-}
-
-footer {
+.footer {
     display: flex;
     height: 80px;
-    justify-content: space-between;
-    padding: 20px;
-    background-color: #7eab70;
+    justify-content: space-around;
+    padding-top: 20px;
 }
 
 .footer-left {
     display: flex;
     font-family: 'Pokemon GB';
     font-size: 10px;
+}
+
+a {
     text-decoration: none;
     color: black;
 }
