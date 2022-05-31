@@ -118,6 +118,12 @@ a {
     height: 30px;
 }
 
+@media (max-width: 1120px){
+    main {
+        background-repeat: repeat-y;
+    }
+}
+
 @media (max-width: 600px){
     
     .headercontainer {
